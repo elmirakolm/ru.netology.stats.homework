@@ -47,7 +47,7 @@
             int count = 0;
 
             for (long sale : sales) {
-                if (sale <= average) {
+                if (sale < average) {
                     count++;
                 }
             }
@@ -60,7 +60,7 @@
             int count = 0;
 
             for (long sale : sales) {
-                if (sale >= average) {
+                if (sale > average) {
                     count++;
                 }
             }
